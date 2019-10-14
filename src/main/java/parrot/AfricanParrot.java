@@ -5,7 +5,6 @@ public class AfricanParrot extends Parrot {
     protected int numberOfCoconuts;
 
     public AfricanParrot(int numberOfCoconuts) {
-        super(ParrotTypeEnum.AFRICAN);
         this.numberOfCoconuts = numberOfCoconuts;
     }
 
